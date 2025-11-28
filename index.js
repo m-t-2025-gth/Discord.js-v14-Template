@@ -7,8 +7,6 @@ const client = new Client({
     ]
 });
 
-client.commands = new Collection();
-
 const HandleLoader = require("./src/Handler/HandleLoader");
 HandleLoader(client);
 
