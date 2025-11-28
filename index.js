@@ -12,4 +12,5 @@ client.commands = new Collection();
 const HandleLoader = require("./src/Handler/HandleLoader");
 HandleLoader(client);
 
+//Login
 client.login(process.env.TOKEN);
